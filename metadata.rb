@@ -1,0 +1,12 @@
+name             'chef_jfrog_artifactory'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures chef_jfrog_artifactory'
+long_description 'Installs/Configures chef_jfrog_artifactory'
+version          '0.1.0'
+
+depends 'java', '~> 1.36.0'
+depends 'artifact', '~> 1.12.0'
+depends 'apt', '~> 2.9.2'
+depends 'runit', '~> 1.6.0'
